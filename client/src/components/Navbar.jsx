@@ -46,7 +46,7 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <Link to='/'>
-                    <img src={assets.logo} />
+                    <img src={assets.logo} className={`${isScrolled && 'invert'}`} />
                 </Link>
 
                 {/* Desktop Nav */}
