@@ -1,0 +1,53 @@
+# Node modules (both frontend and backend)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build files
+build/
+client/build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.swp
+
+# Coverage reports
+coverage/
+
+# Other (optional)
+client/.next/      # if using Next.js in frontend
+public/static/     # if using auto-generated static files
+dist/
+
+# Optional: Ignore database dumps
+dump/
+*.sql
+*.sqlite
+
+# Optional: Ignore uploads (if you store uploaded files temporarily)
+uploads/
+tmp/
