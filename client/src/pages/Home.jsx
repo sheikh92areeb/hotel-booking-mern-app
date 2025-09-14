@@ -1,8 +1,8 @@
 import Hero from '../components/Hero'
 import ExclusiveOffers from '../components/ExclusiveOffers'
 import Testimonial from '../components/Testimonial'
-import FeatureDestination from '../components/featureDestination'
 import NewsLetter from '../components/NewsLetter'
+import FeatureDestination from '../components/FeatureDestination'
 
 
 const Home = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { roomsDummyData } from '../assets/assets'
 import HotelCard from './HotelCard'
 import Title from './Title'
@@ -15,7 +14,7 @@ const FeatureDestination = () => {
 
       <div className='flex flex-wrap items-center justify-center gap-6 mt-20'>
         {roomsDummyData.slice(0,4).map((room,index)=> (
-            <HotelCard key={room._id} room={room} index={index} />
+          <HotelCard key={room._id} room={room} index={index} />  
         ))}
       </div>
 

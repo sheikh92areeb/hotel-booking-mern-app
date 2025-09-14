@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from './Title'
 import { testimonials } from '../assets/assets'
 import StarRating from './StarRating'

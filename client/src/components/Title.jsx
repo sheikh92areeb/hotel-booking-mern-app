@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Title = ({title, subtitle, align, font}) => {
   return (
